@@ -1,0 +1,2 @@
+discord-py-interactions==5.13.2
+pillow==10.4.0
