@@ -1066,5 +1066,5 @@ async def cancel_coinflip(ctx: interactions.SlashContext):
 
 
 # Start the bot
-bot.run(os.environ.get('DISCORD_BOT_TOKEN'))
+bot.start(os.environ.get('DISCORD_BOT_TOKEN'))
 
