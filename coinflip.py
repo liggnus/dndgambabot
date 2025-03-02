@@ -8,7 +8,8 @@ import os
 from datetime import datetime, timedelta
 import os
 from dotenv import load_dotenv
-load_dotenv()
+
+bot = interactions.Client(token=os.getenv("DISCORD_BOT_TOKEN"))
 
 # Load currency data from file
 def load_currency():
